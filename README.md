@@ -18,7 +18,7 @@ docker-compose up --build
 3. Create a superuser
 
 ```
-docker-compose exec web python manage.py createsuperuser
+docker-compose exec shop_api python manage.py createsuperuser
 ```
 
 This will automatically:
